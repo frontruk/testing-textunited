@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+  <file original="ng2.template" source-language="en-US" target-language="pl-PL" datatype="x-plaintext">
+    <body>
+      <trans-unit id="c7af5695ba0d4e81f9ec4e618a2b2eea64083c99">
+        <source xml:lang="en-US">Hello i18n!</source>
+        <target xml:lang="pl-PL">Ciao i18n!</target>
+      </trans-unit>
+      <trans-unit id="a34d4fa8ad92b9c9f27899405e3ae440c82ce95c">
+        <source xml:lang="en-US">
+          <ph id="1489044133"></ph> Do you agree</source>
+        <target xml:lang="pl-PL">Do you agree</target>
+      </trans-unit>
+      <trans-unit id="e944880aeff7e91dd1aa8967c865f6c52f7b4b4f">
+        <source xml:lang="en-US">Updated: <ph id="72315"></ph></source>
+        <target xml:lang="pl-PL">Updated:</target>
+      </trans-unit>
+      <trans-unit id="e6f91695f7b828e4880c3a9c6dc097f5dd4132ec">
+        <source xml:lang="en-US">{VAR_PLURAL, plural, =0 {just now} =1 {one minute ago} other {<ph id="1"></ph> minutes ago by {VAR_SELECT, select, m {male} f {female} o {other} } } }</source>
+        <target xml:lang="pl-PL">{VAR_PLURAL, plural, =0 {just now} =1 {one minute ago} other { minutes ago by {VAR_SELECT, select, m {male} f {female} o {other} } } }</target>
+      </trans-unit>
+      <trans-unit id="52515023fc70c216ef291086c1962ff135a9fe13">
+        <source xml:lang="en-US">The author is <ph id="72315"></ph></source>
+        <target xml:lang="pl-PL">The author is</target>
+      </trans-unit>
+      <trans-unit id="4e6fd3f2bb3477e8ad2088f03257f6e1b8b515a5">
+        <source xml:lang="en-US">{VAR_SELECT, select, m {male} f {female} o {other} }</source>
+        <target xml:lang="pl-PL">{VAR_SELECT, select, m {maschio} f {femmina} o {altro}}</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

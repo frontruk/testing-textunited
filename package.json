@@ -8,7 +8,10 @@
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "i18n:extract": "ng xi18n --output-path src/locale --locale en-gb",
+    "start-qa:ten:es-es": "ng serve --aot --i18nFile=src/locale/messages.es-es.xlf --i18nFormat=xlf --locale=es-es -o --port 8081"
+
   },
   "private": true,
   "dependencies": {
