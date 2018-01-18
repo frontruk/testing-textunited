@@ -10,8 +10,12 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "i18n:extract": "ng xi18n --output-path src/locale --locale en-gb",
-    "start-qa:ten:es-es": "ng serve --aot --i18nFile=src/locale/messages.es-es.xlf --i18nFormat=xlf --locale=es-es -o --port 8081"
-
+    "start-qa:ten:es-es": "ng serve --aot --i18nFile=src/locale/messages.es-es.xlf --i18nFormat=xlf --locale=es-es -o --port 8020",
+    "start-qa:ten:en-pl": "ng serve --aot --i18nFile=src/locale/messages.en-pl.xlf --i18nFormat=xlf --locale=es-es -o --port 8040",
+    "start-qa:ten:en-fr": "ng serve --aot --i18nFile=src/locale/messages.en-fr.xlf --i18nFormat=xlf --locale=es-es -o --port 8090",
+    "start-qa:ten:en-lv": "ng serve --aot --i18nFile=src/locale/messages.en-lv.xlf --i18nFormat=xlf --locale=es-es -o --port 8060",
+    "start-qa:ten:en-arabic": "ng serve --aot --i18nFile=src/locale/messages.en-arabic.xlf --i18nFormat=xlf --locale=es-es -o --port 8190",
+    "start-qa:ten:en-rus": "ng serve --aot --i18nFile=src/locale/messages.en-rus.xlf --i18nFormat=xlf --locale=en-es -o --port 8290"
   },
   "private": true,
   "dependencies": {

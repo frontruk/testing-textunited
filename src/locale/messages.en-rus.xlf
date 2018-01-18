@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file source-language="en-gb" datatype="plaintext" original="ng2.template" target-language="pl-PL">
+  <file source-language="en-gb" datatype="plaintext" original="ng2.template" target-language="ru-RU">
     <body>
       <trans-unit id="c7af5695ba0d4e81f9ec4e618a2b2eea64083c99" datatype="html" approved="yes">
         <source>Hello i18n!</source>
-        <target xml:lang="pl-PL">Cześć i18n!</target>
+        <target xml:lang="ru-RU">Привет, i18n!</target>
 <note from="description" annotates="1">An introduction header for this sample@AppComponent:stringTranslation</note><note from="meaning" annotates="1">site header</note><context-group purpose="location">
           <context context-type="sourcefile">app/app.component.ts</context>
           <context context-type="linenumber">2</context>
@@ -14,7 +14,7 @@
       </trans-unit>
       <trans-unit id="a34d4fa8ad92b9c9f27899405e3ae440c82ce95c" datatype="html" approved="yes">
         <source><x id="TAG_INPUT" ctype="x-input" equiv-text="&lt;input/>"/> Do you agree</source>
-        <target xml:lang="pl-PL"><x id="TAG_INPUT" ctype="x-input" equiv-text="&lt;input/>"/> Czy sie zgadzasz</target>
+        <target xml:lang="ru-RU"><x id="TAG_INPUT" ctype="x-input" equiv-text="&lt;input/>"/> Вы согласны</target>
 <note from="description" annotates="1">@AppComponent:stringTranslationWithHTML</note><context-group purpose="location">
           <context context-type="sourcefile">app/app.component.ts</context>
           <context context-type="linenumber">7</context>
@@ -23,7 +23,7 @@
       </trans-unit>
       <trans-unit id="e944880aeff7e91dd1aa8967c865f6c52f7b4b4f" datatype="html" approved="yes">
         <source>Updated: <x id="ICU" equiv-text="{minutes, plural, =0 {...} =1 {...} other {...}}"/></source>
-        <target xml:lang="pl-PL">Zaktualizowano: <x id="ICU" equiv-text="{minutes, plural, =0 {...} =1 {...} other {...}}"/></target>
+        <target xml:lang="ru-RU">Обновлено: <x id="ICU" equiv-text="{minutes, plural, =0 {...} =1 {...} other {...}}"/></target>
 <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.ts</context>
           <context context-type="linenumber">13</context>
@@ -31,7 +31,7 @@
       </trans-unit>
       <trans-unit id="e6f91695f7b828e4880c3a9c6dc097f5dd4132ec" datatype="html" approved="yes">
         <source>{VAR_PLURAL, plural, =0 {just now} =1 {one minute ago} other {<x id="INTERPOLATION" equiv-text="{{minutes}}"/> minutes ago by {VAR_SELECT, select, m {male} f {female} o {other} } } }</source>
-        <target xml:lang="pl-PL">{VAR_PLURAL, plural, =0 {teraz} =1 {minutę temu} other {<x id="INTERPOLATION" equiv-text="{{minutes}}"/> minut temu przez {VAR_SELECT, select, m {male} f {female} o {other} } } }</target>
+        <target xml:lang="ru-RU">{VAR_PLURAL, plural, =0 {just now} =1 {минута назад} other {<x id="INTERPOLATION" equiv-text="{{minutes}}"/> минуты назад {VAR_SELECT, select, m {male} f {female} o {other} } } }</target>
 <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.ts</context>
           <context context-type="linenumber">14</context>
@@ -39,7 +39,7 @@
       </trans-unit>
       <trans-unit id="52515023fc70c216ef291086c1962ff135a9fe13" datatype="html" approved="yes">
         <source>The author is <x id="ICU" equiv-text="{gender, select, m {...} f {...} o {...}}"/></source>
-        <target xml:lang="pl-PL">Autorem jest <x id="ICU" equiv-text="{gender, select, m {...} f {...} o {...}}"/></target>
+        <target xml:lang="ru-RU">Автор <x id="ICU" equiv-text="{gender, select, m {...} f {...} o {...}}"/></target>
 <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.ts</context>
           <context context-type="linenumber">19</context>
@@ -47,7 +47,7 @@
       </trans-unit>
       <trans-unit id="4e6fd3f2bb3477e8ad2088f03257f6e1b8b515a5" datatype="html" approved="yes">
         <source>{VAR_SELECT, select, m {male} f {female} o {other} }</source>
-        <target xml:lang="pl-PL">{VAR_SELECT, select, m {male} f {female} o {other} }</target>
+        <target xml:lang="ru-RU">{VAR_SELECT, select, m {male} f {female} o {other} }</target>
 <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.ts</context>
           <context context-type="linenumber">19</context>
